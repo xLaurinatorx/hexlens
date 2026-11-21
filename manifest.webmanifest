@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "Hexlens – LoL-Analyse",
+  "short_name": "Hexlens",
+  "description": "Deine League-of-Legends-Analyse: Rang, Matches, Draft, Builds und Ziele – läuft lokal auf deinem PC.",
+  "lang": "de",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070b14",
+  "theme_color": "#060a14",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Matches", "url": "./matches", "description": "Deine letzten Games" },
+    { "name": "Champions", "url": "./champions", "description": "Deine Champions" },
+    { "name": "Ziele & Berichte", "url": "./ziele", "description": "Session- und Wochenbericht" }
+  ]
+}
